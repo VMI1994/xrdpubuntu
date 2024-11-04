@@ -11,4 +11,7 @@ sudo systemctl restart xrdp
 clear
 sudo ufw status
 sudo systemctl status xrdp
+echo "Hit Enter to reboot"
+read junk
+sudo reboot now &
 exit
